@@ -14,6 +14,7 @@
 ### 0.3 理解RL基本思想，跑通第一个RL demo--CartPole
 - 学习链接：[https://www.bilibili.com/video/BV1Jz421X7KX?t=0.7](https://www.bilibili.com/video/BV1Jz421X7KX?t=0.7)
 - 学习目标：掌握强化学习（RL）的核心思想（智能体、环境、奖励、策略等），通过Reinforce算法实践，成功运行CartPole游戏demo，体验强化学习的训练过程。
+- 0.3.1 pygame库：基于 Python 的2D 游戏开发库
 
 ### 0.4 待更新
 - 后续将持续补充多智能体强化学习的进阶内容，包括核心算法（如PPO、GRPO）、多智能体交互机制、实战项目等，敬请关注。
