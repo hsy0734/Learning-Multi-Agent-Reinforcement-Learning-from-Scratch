@@ -1,0 +1,19 @@
+# <font style="color:#000000;background-color:rgba(0, 0, 0, 0);">TD 核心思想：用 “估计” 去更新 “估计”</font>
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">MC 是：</font>
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">真实总回报 G → 去更新 Q</font>
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">DP 是：</font>
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">下一个状态的价值 V → 去更新当前 V</font>
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">TD 是：</font>
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">我走一步，拿到 R，</font><font style="color:#000000;background-color:rgba(0, 0, 0, 0);">用 </font>**<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">下一个状态的估计 Q</font>**<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">去更新 </font>**<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">当前 Q</font>**
+
+<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">这就叫：</font>**<font style="color:#000000;background-color:rgba(0, 0, 0, 0);">时序差分 = 用时间上相邻两步的差来学习</font>**
+
+
+
+ 贝尔曼方程是理论标准答案，TD 是走一步就学一步的方法，SARSA 照着普通贝尔曼学（跟着自己真实走法学），Q-learning 照着贝尔曼最优方程学（直接盯着最优学）。  
+

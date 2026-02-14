@@ -1,0 +1,14 @@
+有三个特点：采用 td 方法，
+
+有两种策略，行为策略用来探索，目标策略用来利用
+
+### <font style="background-color:rgba(0, 0, 0, 0);">普通贝尔曼方程</font>
+<font style="background-color:rgba(0, 0, 0, 0);">Q</font><font style="background-color:rgba(0, 0, 0, 0);">=</font><font style="background-color:rgba(0, 0, 0, 0);">R</font><font style="background-color:rgba(0, 0, 0, 0);">+</font><font style="background-color:rgba(0, 0, 0, 0);">γ</font><font style="background-color:rgba(0, 0, 0, 0);">Q</font><font style="background-color:rgba(0, 0, 0, 0);">(</font><font style="background-color:rgba(0, 0, 0, 0);">s</font><font style="background-color:rgba(0, 0, 0, 0);">′</font><font style="background-color:rgba(0, 0, 0, 0);">,</font><font style="background-color:rgba(0, 0, 0, 0);">a</font><font style="background-color:rgba(0, 0, 0, 0);">′</font><font style="background-color:rgba(0, 0, 0, 0);">)</font><font style="background-color:rgba(0, 0, 0, 0);">→ 对应 </font>**<font style="background-color:rgba(0, 0, 0, 0);">SARSA</font>**<font style="background-color:rgba(0, 0, 0, 0);">（跟着现实走）</font>
+
+### <font style="background-color:rgba(0, 0, 0, 0);">贝尔曼</font>**<font style="background-color:rgba(0, 0, 0, 0);">最优</font>**<font style="background-color:rgba(0, 0, 0, 0);">方程</font>
+<font style="background-color:rgba(0, 0, 0, 0);">Q∗=R+γmaxQ(s′,a′)</font><font style="background-color:rgba(0, 0, 0, 0);">→ 对应 </font>**<font style="background-color:rgba(0, 0, 0, 0);">Q-learning</font>**<font style="background-color:rgba(0, 0, 0, 0);">（跟着最优走）</font>
+
+<font style="background-color:rgba(0, 0, 0, 0);"></font>
+
+<font style="background-color:rgba(0, 0, 0, 0);"></font>
+
